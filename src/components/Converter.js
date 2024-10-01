@@ -36,6 +36,7 @@ const Converter = () => {
     } catch (error) {
       setReady(true)
       setCompatible(false)
+      console.log(error)
     }
   }
 
